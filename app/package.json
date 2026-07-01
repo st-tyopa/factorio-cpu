@@ -1,0 +1,30 @@
+{
+  "name": "factorio-blueprint-tool",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9",
+    "remark-gfm": "^4",
+    "@uiw/react-codemirror": "^4",
+    "@codemirror/lang-json": "^6",
+    "@codemirror/theme-one-dark": "^6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4",
+    "typescript": "^5",
+    "vite": "^5"
+  }
+}
